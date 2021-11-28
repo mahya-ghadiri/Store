@@ -21,7 +21,7 @@ type OrderProvider interface {
 type OrderStatus uint8
 
 const (
-	InProgress OrderStatus = 1
-	Paid       OrderStatus = 2
-	Sent       OrderStatus = 3
+	InProgress OrderStatus = iota + 1
+	Paid
+	Sent
 )

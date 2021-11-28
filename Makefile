@@ -1,4 +1,4 @@
-test: mock
+test: config mock
 	go test -gcflags=-l -v ./... -coverprofile cover.out
 	go tool cover -func cover.out
 

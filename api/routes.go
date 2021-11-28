@@ -12,6 +12,6 @@ func RegisterRoutes(e *echo.Echo) {
 	e.POST("/product", handlers.CreateProduct)
 	e.GET("/product/search", handlers.SearchProduct)
 	e.POST("/cart/add", handlers.AddToCart)
-	e.POST("/cart/remove", handlers.RemoveFromCart)
+	e.DELETE("/cart/remove", handlers.RemoveFromCart)
 
 }
