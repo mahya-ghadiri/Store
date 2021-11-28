@@ -1,0 +1,7 @@
+app:
+  PORT: 8081
+
+redis:
+  REDIS_ADDRESS: "localhost:6379"
+
+
